@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  position: relative;
+  margin: 1% auto;
+  width: 800px;
+  height: 630px;
+  border: 2px solid #e6e6e6;
+  border-radius: 10px;
+  overflow: hidden;
+  background: 25px;
+}
+.header {
+  position: relative;
+  padding: 25px;
+  width: 100%;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #ffffff;
+  line-height: 28px;
+}
+.remove-text {
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 4px 15px;
+  display: inline;
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+.todo-body {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.todo-list {
+  list-style: none;
+}
+.todo-list .todo-item {
+  padding: 20px;
+  border-bottom: 1px solid #e7e7e7;
+  color: #717171;
+}
+.todo-item.checked {
+  text-decoration: line-through;
+}
+.todo-input {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 0;
+  border-top: 1px solid #e7e7e7;
+}
