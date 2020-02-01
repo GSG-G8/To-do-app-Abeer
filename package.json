@@ -1,0 +1,20 @@
+{
+  "name": "To-do-app-Abeer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G8/To-do-app-Abeer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G8/To-do-app-Abeer/issues"
+  },
+  "homepage": "https://github.com/GSG-G8/To-do-app-Abeer#readme"
+}
