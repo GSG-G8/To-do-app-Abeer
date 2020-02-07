@@ -31,10 +31,16 @@ var todoFunctions = {
     });
   },
   markTodo: function(todos, idToMark) {
-    // should leave the input argument todos unchanged (you can use cloneArrayOfObjects)
-    // in the new todo array, all elements will remain unchanged except the one with id: idToMark
-    // this element will have its done value toggled
-    // hint: array.map
+    return todoFunctions.cloneArrayOfObjects(todos).map(element => {
+      if (element.id === idToMark) {
+        element = {
+          id: element.id,
+          description: element.description,
+          done: !element.done
+        };
+      }
+      return element;
+    });
   },
 
   sortTodos: function(todos, sortFunction) {
