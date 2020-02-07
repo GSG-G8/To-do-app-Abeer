@@ -24,3 +24,18 @@ describe("Testing add todo ", () => {
     expect(actual).toEqual(expected);
   });
 });
+//Test delete todo
+
+describe("Testing delete todo ", () => {
+  test("Delete todo", () => {
+    const actual = todoFunctions.deleteTodo(
+      [
+        { id: 1, description: "todo", done: false },
+        { id: 2, description: "todo 1", done: false }
+      ],
+      1
+    );
+    const expected = [{ id: 2, description: "todo 1", done: false }];
+    expect(actual).toEqual(expected);
+  });
+});
