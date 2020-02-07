@@ -7,13 +7,16 @@
   </head>
   <body>
     <div id = "todo-container">
-        <ul>
+      <div class="header">
+        <h2>To-Do list</h2>
+        </div>
+        <ul class="todo-list">
         </ul>
-    </div>
     <form id="add-todo">
-      <input type="text" name="description" value="">
-      <input type="submit" name="" value="Submit">
+      <input class="todo-input" type="text" name="description" value="" placeholder="Enter a task and press enter">
+      <input class="todo-input" type="submit" name="" value="Submit">
     </form>
+  </div>
   </body>
   <script type="text/javascript" src = "./js/logic.js"></script>
   <script type="text/javascript" src = "./js/dom.js"></script>
