@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GSG-G8/To-do-app-Abeer/issues"
   },
-  "homepage": "https://github.com/GSG-G8/To-do-app-Abeer#readme"
+  "homepage": "https://github.com/GSG-G8/To-do-app-Abeer#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }
